@@ -506,3 +506,13 @@ Traceback (most recent call last):
   File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
     defer.returnValue((yield download_func(request=request,spider=spider)))
 scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 111.29.3.222:8080 [{'status': 400, 'reason': b'Bad Request'}]
+2019-10-04 12:57:59 [scrapy.core.scraper] ERROR: Error downloading <GET https://piao.qunar.com/ticket/list.htm?keyword=%E6%B5%99%E6%B1%9F%E7%9C%81&page=23>
+Traceback (most recent call last):
+  File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 111.29.3.187:8080 [{'status': 400, 'reason': b'Bad Request'}]
+2019-10-04 12:58:02 [scrapy.core.scraper] ERROR: Error downloading <GET https://piao.qunar.com/ticket/list.htm?keyword=%E6%B5%99%E6%B1%9F%E7%9C%81&page=15>
+Traceback (most recent call last):
+  File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 111.29.3.189:8080 [{'status': 400, 'reason': b'Bad Request'}]
