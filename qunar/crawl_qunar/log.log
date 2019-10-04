@@ -473,3 +473,36 @@ Traceback (most recent call last):
   File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 352, in _cb_timeout
     raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
 twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://piao.qunar.com/ticket/list.htm?keyword=%E6%B5%99%E6%B1%9F%E7%9C%81&page=1 took longer than 30.0 seconds..
+2019-10-04 12:51:46 [scrapy.core.scraper] ERROR: Error downloading <GET https://piao.qunar.com/ticket/list.htm?keyword=%E6%B5%99%E6%B1%9F%E7%9C%81&page=23>
+Traceback (most recent call last):
+  File "D:\Miniconda3\lib\site-packages\twisted\internet\defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\Miniconda3\lib\site-packages\twisted\python\failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\Miniconda3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://piao.qunar.com/ticket/list.htm?keyword=%E6%B5%99%E6%B1%9F%E7%9C%81&page=23 took longer than 30.0 seconds..
+2019-10-04 12:54:54 [scrapy.core.scraper] ERROR: Error downloading <GET https://piao.qunar.com/ticket/list.htm?keyword=%E7%A6%8F%E5%BB%BA%E7%9C%81&page=8>
+Traceback (most recent call last):
+  File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 106.52.181.184:80 [{'status': 400, 'reason': b'Bad Request'}]
+2019-10-04 12:55:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://piao.qunar.com/ticket/list.htm?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81&page=14>
+Traceback (most recent call last):
+  File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 111.29.3.220:8080 [{'status': 400, 'reason': b'Bad Request'}]
+2019-10-04 12:56:42 [scrapy.core.scraper] ERROR: Error downloading <GET https://piao.qunar.com/ticket/list.htm?keyword=%E6%B5%99%E6%B1%9F%E7%9C%81&page=6>
+Traceback (most recent call last):
+  File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 111.29.3.195:80 [{'status': 400, 'reason': b'Bad Request'}]
+2019-10-04 12:57:54 [scrapy.core.scraper] ERROR: Error downloading <GET https://piao.qunar.com/ticket/list.htm?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81&page=24>
+Traceback (most recent call last):
+  File "D:\Miniconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 111.29.3.222:8080 [{'status': 400, 'reason': b'Bad Request'}]

@@ -1,0 +1,5 @@
+User_Agent: Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.7.62 Version/11.01
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/1.6.0 (+https://scrapy.org)
+Accept-Encoding: gzip,deflate
