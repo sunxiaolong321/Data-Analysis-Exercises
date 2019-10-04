@@ -67,4 +67,4 @@
 ![词云](picture/词云.png)
 ![词云](picture/词云2.png)
 
-[notebook](https://nbviewer.jupyter.org/github/sunxiaolong321/Qunar/blob/master/qunar.ipynb)
+[notebook](https://nbviewer.jupyter.org/github/sunxiaolong321/Data-Analysis-Exercises/blob/master/qunar/qunar.ipynb)
