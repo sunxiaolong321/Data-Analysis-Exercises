@@ -1,6 +1,8 @@
-# 去哪儿网景点分析
+# 数据分析练习
 
-## 描述
+## 去哪儿网景点分析
+
+### 描述
 
 **主要使用**
 
@@ -9,5 +11,5 @@
 - pandas
 - pyecharts
 
-[详情描述](https://github.com/sunxiaolong321/Qunar/blob/master/picture/README.md)  
-[notebook](https://nbviewer.jupyter.org/github/sunxiaolong321/Qunar/blob/master/qunar.ipynb)
+[项目详情](qunar\README.md)
+
