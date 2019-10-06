@@ -83,4 +83,4 @@ Scrapy爬取去哪儿网搜索页数据
 
 科赛上传数据（2017年某地区共享单车骑行数据）
 
-[项目详情](https://github.com/sunxiaolong321/Data-Analysis-Exercises/tree/master/jupyter_sharedcyecle)
+[项目详情](https://github.com/sunxiaolong321/Data-Analysis-Exercises/tree/master/jupyter_sharedcycle)
